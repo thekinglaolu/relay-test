@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Messaging Dashboard ALT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="bulma.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+	<body>
+		<!-- Main Wrapper Starts -->
+		<section class="columns is-gapless" id="main-wrapper">
+			<!-- Small Sidebar Starts -->
+			<div class="column is-1 sm-sidebar">
+				<div class="columns is-multiline"></div>
+					<a href="#" class="logo column">
+						<img src="logo.png" alt="brand-logo" width="29">
+					</a>
+					<a href="#" class="org-switcher column">
+						SI
+					</a>
+					<a href="#" class="org-switcher column">
+						m
+					</a>
+					<a href="#" class="org-switcher column">
+						ta
+					</a>
+					<a href="#" class="org-switcher column">
+						y
+					</a>
+					<div class="dropdown is-up score-card-toggle">
+					  <div class="dropdown-trigger ">
+							<i class="far fa-2x fa-dot-circle" aria-haspopup="true" aria-controls="dropdown-menu7"></i>
+					  </div>
+					  <div class="dropdown-menu" id="dropdown-menu7" role="menu">
+					    <div class="dropdown-content">
+					      <div class="dropdown-item">
+					        <p>You can add the <code>is-up</code> modifier to have a dropdown menu that appears above the dropdown button.</p>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<!-- Small Sidebar Ends -->
+
+				<!-- Sub Sidebar Starts -->
+				<section class="column is-3 sub-sidebar">
+					<section class="section">
+						<div class="tile sub-sidebar-section">
+							<div class="dropdown-toggle">
+								Stark Industries &nbsp; <i class="fas fa-angle-down" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="tile sub-sidebar-section">
+							<ul>
+								<li><a href="#">Inbox</a></li>
+								<li><a href="#">People</a></li>
+								<li><a href="#">Segments</a></li>
+							</ul>
+						</div>
+						<div class="tile sub-sidebar-section">
+							<ul>
+								<li><a href="#">Campaigns</a></li>
+								<li><a href="#">Rules</a></li>
+								<li><a href="#">Macros</a></li>
+								<li><a href="#">Items</a></li>
+							</ul>
+						</div>
+						<div class="tile sub-sidebar-section">
+							<ul>
+								<li><a href="#">Transactions</a></li>
+								<li><a href="#">Reports</a></li>
+								<li><a href="#">Phone Numbers</a></li>
+								<li>
+								<div class="select">
+								  <select>
+									  <option>Status ---</option>
+									  <option value="#">Ready   </option>
+									  <option value="#">Away from desk</option>
+									  <option value="#">Break</option>
+									  <option value="#">Lunch</option>
+									  <option value="#">Training/Coaching</option>
+									  <option value="#">Offline</option>
+								  </select>
+								</div>
+								</li>
+							</ul>
+						</div>
+						<div class="tile sub-sidebar-section">
+							<div class="dropdown-toggle">
+								Team Status &nbsp; <i class="fas fa-angle-up" aria-hidden="true"></i>
+							</div>
+							<span>12 Members</span>
+						</div>
+					</section>
+				</section>
+				<!-- Sub Sidebar Ends -->
+
+				<!-- Messaging Dashboard Starts -->
+				<section class="column messaging-dashboard">
+					<!-- Dashboard Nav Starts -->
+					<section class="dashboard-nav">
+						<div class="level">
+							<div class="level-left">
+								<div class="level-item">
+									<p class="title is-5">
+									 Inbox
+									</p>
+								</div>
+								<div class="level-item">
+									<div class="select">
+									  <select>
+										  <option value="#">All (57)</option>
+										  <option value="#">Open (19)</option>
+										  <option value="#">Mine (5)</option>
+										  <option value="#">Closed (69)</option>
+										  <option value="#">Snoozed (2)</option>
+									  </select>
+									</div>
+								</div>
+							</div>
+							<div class="level-right">
+								<div class="level-item">
+									<div class="control has-icons-left has-icons-right">
+										<input class="input is-rounded is-small" type="text" placeholder="Search people & tags" style="width: 25em;">
+										<span class="icon is-small is-left">
+										<i class="fas fa-search"></i>
+										</span>
+									</div>
+								</div>
+								<div class="level-item">
+									<span class="notification">
+										23
+									</span>
+								</div>
+								<div class="level-item">
+									<img class="avatar" src="avatar1.jpg" alt="user-avatar"width="25" height="25">
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Dashboard Nav Ends -->
+					<div class="columns is-gapless">
+						<!-- Conversation List Starts -->
+						<section class="column conversation-list-wrapper">
+							<div class="tile conversation-list-options">
+								<div class="select">
+								  <select style="width: 80vh;">
+									<option value="#">Filter by campaigns</option>
+									<option value="#">NYC Fundraising Dinner</option>
+									<option value="#">Campaign Rally Invite</option>
+									<option value="#">GOTV Campaign</option>
+									<option value="#">Voter Registration</option>
+								  </select>
+								</div>
+							</div>
+							<div class="tile conversation-wrapper" tabindex="1">
+								<article class="media">
+									<figure class="media-left">
+										<div class="image is-32x32">
+											<img src="avatar1.jpg">
+										</div>
+									</figure>
+									<div class="media-content">
+										<div class="content">
+											<h6>Jason Mendoza</h6>
+											<small>RE: Welcome to Replay</small>
+											
+										</div>
+									</div>
+
+									<div class="media-right">
+										<small>2m</small>
+									</div>
+								</article>
+								<div class="conversation-bottom">
+									<span class="cb-left unread">
+										2
+									</span>
+									<div class="cb-right">
+										<p>
+											Lorem ipsum dolor sit amet, conse ctetur adipiscing elit
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tile conversation-wrapper" tabindex="1">
+								<article class="media">
+									<figure class="media-left">
+										<div class="image is-32x32">
+											<img src="avatar2.jpg">
+										</div>
+									</figure>
+									<div class="media-content">
+										<div class="content">
+											<h6>Ferdinand Gaus</h6>
+											<span class="content-text">
+											Lorem ipsum dolor sit amet, conse ctetur adipiscing elit
+											</span>
+										</div>
+									</div>
+
+									<div class="media-right">
+										<small>2m</small>
+									</div>
+								</article>
+								<div class="conversation-bottom">
+									<span class="cb-left-img">
+										<div class="image is-24x24">
+											<img src="avatar3.jpg">
+											<div class="status-indicator-msg"></div>
+										</div>
+									</span>
+									<div class="cb-right">
+										<div class="indicator-dots"></div>
+										<div class="indicator-dots"></div>
+										<div class="indicator-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="tile conversation-wrapper" tabindex="1">
+								<article class="media">
+									<figure class="media-left">
+										<div class="image is-32x32">
+											<img src="avatar3.jpg">
+										</div>
+									</figure>
+									<div class="media-content">
+										<div class="content">
+											<h6>Ferdinand Gaus</h6>
+											<span class="content-text">
+											Lorem ipsum dolor sit amet, conse ctetur adipiscing elit
+											</span>
+										</div>
+									</div>
+
+									<div class="media-right">
+										<small>2m</small>
+									</div>
+								</article>
+								<div class="conversation-bottom">
+									<span class="cb-left-img">
+										<div class="image is-24x24">
+											<img src="avatar2.jpg">
+											<div class="status-indicator-msg"></div>
+										</div>
+									</span>
+									<div class="cb-right">
+										<p class="agent-reply-highlight" >
+											Hi there, thanks for contacting us.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tile conversation-wrapper" tabindex="1">
+								<article class="media">
+									<figure class="media-left">
+										<div class="image is-32x32">
+											<img src="avatar3.jpg">
+										</div>
+									</figure>
+									<div class="media-content">
+										<div class="content">
+											<h6>+1 (680) 711-0082</h6>
+											<span class="content-text">
+											Lorem ipsum dolor sit amet, conse ctetur adipiscing elit
+											</span>
+										</div>
+									</div>
+
+									<div class="media-right">
+										<small>2m</small>
+									</div>
+								</article>
+							</div>
+						</section>
+						<!-- Conversation List Ends -->
+						<!-- Dashboard Sub Nav Starts -->
+						<section class="column">
+							<section class="dashboard-sub-nav">
+								<div class="level">
+									<div class="level-left">
+										<div class="level-item">
+											<p class="subtitle is-6">
+											 Jason Mendoza
+											</p>
+										</div>
+									</div>
+									<div class="level-right">
+										<div class="level-item">
+											<div class="dropdown-toggle">
+												<img class="avatar" src="avatar1.jpg" alt="user-avatar"width="25" height="25"> &nbsp;&nbsp;
+												Me &nbsp; <i class="fas fa-angle-down" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="level-item">
+											<button class="button is-small is-outlined"> Snooze </button>
+										</div>
+										<div class="level-item">
+											<button class="button is-small is-link"> Close </button>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section class="columns is-gapless">
+								<!-- Messaging Content Wrapper Start -->
+								<section class="column messaging-content-wrapper">
+									<div class="convo-bubble-wrapper">Meredith is replying to "Downtown Fundraising Dinner" Campaign</div>
+
+								</section>
+								<!-- Messaging Content Wrapper End -->
+
+								<!-- TImeline Wrapper Start -->
+								<section class="column timline-wrapper" style="padding: 2em 2em !important;">
+									<img src="left.png" alt="timeline-toggle" width="25" height="25">
+								</section>
+								<!-- Timeline Wrapper End -->
+							</section>
+						</section>
+						<!-- Dashboard Sub Nav Ends -->
+					</div>
+				</section>
+				<!-- Messaging Dashboard Ends -->
+			</div>
+		</section>
+		<!-- Main Wrapper Ends -->
+
+	</body>
+</html>
